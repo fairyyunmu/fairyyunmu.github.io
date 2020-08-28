@@ -1,0 +1,19 @@
+# Site settings
+title: Happy Birthday to Wumuyun
+motto: 
+email: fsux@outlook.com
+description: Wumuyun
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://wumuyun.net" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  FSUX
+pygments: true
+# Outputting
+
+paginate: 5
+paginate_path: /page/:num
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
